@@ -1,7 +1,7 @@
 section header {
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
-  /* font: var(--text-span); */
+  font: var(--text-span);
   
   a {
     justify-self: end;
@@ -71,5 +71,20 @@ section header {
 
   img {
     height: 160px;
+  }
+
+  figure {
+    position: relative;
+
+    .content-tag {
+      position: absolute;
+      margin-top: 8px;
+      margin-left: 8px;
+    }
+
+    p {
+      margin-top: 8px;
+      font-weight: 800;
+    }
   }
 }
